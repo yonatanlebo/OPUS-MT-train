@@ -14,6 +14,7 @@ Setting up:
 
 ```
 git clone https://github.com/yonatanlebo/Opus-MT-train.git
+cd Opus-MT-train
 git submodule update --init --recursive --remote
 make install
 ```
@@ -24,9 +25,9 @@ For CSC-users: adjust `lib/env/puhti.mk` and `lib/env/mahti.mk` to match yourset
 Training a multilingual NMT model (Finnish and Estonian to Danish, Swedish and English):
 
 ```
-make SRCLANGS="fi et" TRGLANGS="da sv en" train
-make SRCLANGS="fi et" TRGLANGS="da sv en" eval
-make SRCLANGS="fi et" TRGLANGS="da sv en" release
+make SRCLANGS="en" TRGLANGS="he" train
+make SRCLANGS="en" TRGLANGS="he" eval
+make SRCLANGS="en" TRGLANGS="he" release
 ```
 
 More information is available in the documentation linked below.
