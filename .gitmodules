@@ -6,7 +6,7 @@
 	url = https://github.com/alexandres/terashuf.git
 [submodule "tools/marian-dev"]
 	path = tools/marian-dev
-	url = https://github.com/marian-nmt/marian-dev.git
+	url = https://github.com/yonatanlebo/marian-dev.git
 [submodule "tools/OpusTools-perl"]
 	path = tools/OpusTools-perl
 	url = https://github.com/Helsinki-NLP/OpusTools-perl.git
