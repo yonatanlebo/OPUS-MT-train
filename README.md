@@ -14,7 +14,7 @@ Setting up:
 
 ```
 git clone https://github.com/yonatanlebo/OPUS-MT-train.git
-cd Opus-MT-train
+cd OPUS-MT-train
 git submodule update --init --recursive --remote
 make install
 ```
