@@ -5,7 +5,7 @@ This package includes scripts for training NMT models using MarianNMT and OPUS d
 
 ## Pre-trained models
 
-The subdirectory [models](https://github.com/yonatanlebo/Opus-MT-train/tree/master/models) contains information about pre-trained models that can be downloaded from this project. They are distribted with a [CC-BY 4.0 license](https://creativecommons.org/licenses/by/4.0/) license. [More pre-trained models](https://github.com/Helsinki-NLP/Tatoeba-Challenge/blob/master/results/tatoeba-results-all.md) trained with the [OPUS-MT training pipeline](https://github.com/yonatanlebo/Opus-MT-train/blob/master/doc/TatoebaChallenge.md) are available from the [Tatoeba translation challenge](https://github.com/Helsinki-NLP/Tatoeba-Challenge) also under a [CC-BY 4.0 license](https://creativecommons.org/licenses/by/4.0/) license.
+The subdirectory [models](https://github.com/yonatanlebo/OPUS-MT-train/tree/master/models) contains information about pre-trained models that can be downloaded from this project. They are distribted with a [CC-BY 4.0 license](https://creativecommons.org/licenses/by/4.0/) license. [More pre-trained models](https://github.com/Helsinki-NLP/Tatoeba-Challenge/blob/master/results/tatoeba-results-all.md) trained with the [OPUS-MT training pipeline](https://github.com/yonatanlebo/OPUS-MT-train/blob/master/doc/TatoebaChallenge.md) are available from the [Tatoeba translation challenge](https://github.com/Helsinki-NLP/Tatoeba-Challenge) also under a [CC-BY 4.0 license](https://creativecommons.org/licenses/by/4.0/) license.
 
 
 ## Quickstart
@@ -13,7 +13,7 @@ The subdirectory [models](https://github.com/yonatanlebo/Opus-MT-train/tree/mast
 Setting up:
 
 ```
-git clone https://github.com/yonatanlebo/Opus-MT-train.git
+git clone https://github.com/yonatanlebo/OPUS-MT-train.git
 cd Opus-MT-train
 git submodule update --init --recursive --remote
 make install
@@ -35,18 +35,18 @@ More information is available in the documentation linked below.
 
 ## Documentation
 
-* [Installation and setup](https://github.com/yonatanlebo/Opus-MT-train/tree/master/doc/Setup.md)
-* [Details about tasks and recipes](https://github.com/yonatanlebo/Opus-MT-train/tree/master/doc/README.md)
-* [Information about back-translation](https://github.com/yonatanlebo/Opus-MT-train/tree/master/backtranslate/README.md)
-* [Information about Fine-tuning models](https://github.com/yonatanlebo/Opus-MT-train/blob/master/finetune/README.md)
-* [How to generate pivot-language-based translations](https://github.com/yonatanlebo/Opus-MT-train/blob/master/pivoting/README.md)
+* [Installation and setup](https://github.com/yonatanlebo/OPUS-MT-train/tree/master/doc/Setup.md)
+* [Details about tasks and recipes](https://github.com/yonatanlebo/OPUS-MT-train/tree/master/doc/README.md)
+* [Information about back-translation](https://github.com/yonatanlebo/OPUS-MT-train/tree/master/backtranslate/README.md)
+* [Information about Fine-tuning models](https://github.com/yonatanlebo/OPUS-MT-train/blob/master/finetune/README.md)
+* [How to generate pivot-language-based translations](https://github.com/yonatanlebo/OPUS-MT-train/blob/master/pivoting/README.md)
 
 
 
 ## Tutorials
 
-* [Training low-resource models](https://github.com/yonatanlebo/Opus-MT-train/tree/master/doc/tutorials/low-resource.md)
-* [How to train models for the Tatoeba MT Challenge](https://github.com/yonatanlebo/Opus-MT-train/tree/master/doc/TatoebaChallenge.md)
+* [Training low-resource models](https://github.com/yonatanlebo/OPUS-MT-train/tree/master/doc/tutorials/low-resource.md)
+* [How to train models for the Tatoeba MT Challenge](https://github.com/yonatanlebo/OPUS-MT-train/tree/master/doc/TatoebaChallenge.md)
 
 
 ## References
