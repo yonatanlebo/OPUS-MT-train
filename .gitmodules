@@ -27,7 +27,7 @@
 	url = https://github.com/rsennrich/subword-nmt.git
 [submodule "tools/jq"]
 	path = tools/jq
-	url = https://github.com/stedolan/jq.git
+	url = https://github.com/jqlang/jq.git
 [submodule "OPUS-MT-testsets"]
 	path = OPUS-MT-testsets
 	url = ../OPUS-MT-testsets.git
